@@ -5,7 +5,7 @@
 }
 
 body{
-background-color: rgb(198, 217, 241);
+background-color: rgb(243, 255, 134);
 
 }
 
@@ -17,6 +17,20 @@ background-color: rgb(198, 217, 241);
     flex-direction: column;
 }
 
+
+.game-container h1{
+    margin-bottom: 20px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: #193d66;
+    border-radius: 10px;
+}
+
+#currentPlayer{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
 .game-boxes{
     display: flex;
     justify-content: center;
@@ -24,10 +38,12 @@ background-color: rgb(198, 217, 241);
     padding: 10px;
 }
 
+
+
 .box{
     height: 120px;
     width: 120px;
-    border: 4px solid #000000;
+    border: 4px solid #2b2626;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -35,6 +51,9 @@ background-color: rgb(198, 217, 241);
     cursor: pointer;
     background-color: rgb(57, 28, 136);
     color: #ffffff;
+    font-size: 70px;
+    font-weight: bolder;
+    box-shadow: 5px 20px 40px #193d66; 
 }
 
 .buttons{
@@ -60,4 +79,13 @@ background-color: rgb(198, 217, 241);
 .cross-img{
     height: 75px;
     background-color: #ffffff;
+}
+
+@media (max-width:360px){
+
+    .box{
+        height: 100px;
+        width: 100px;
+    }
+
 }

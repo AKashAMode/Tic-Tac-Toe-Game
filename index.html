@@ -9,52 +9,52 @@
 <body>
     <div class="game-container">
         
-        <h1>Tic Tac Toe</h1>
-
+        <h1>Tic Tac Toe Game</h1>
+        
+        <h3> Current Player <span id="currentPlayer">X</span></h3>
       <div class="game-boxes">
         <div class="box-section">
 
-        <div class="box" onclick="allClickBoxes()">
+        <div class="box" onclick="clickBox(0)">
           
         </div>
-        <div class="box" onclick="clickBox()">
+        <div class="box" onclick="clickBox(1)">
             
         </div>
-        <div class="box" onclick="clickBox()">
+        <div class="box" onclick="clickBox(2)">
            
         </div>
 
       </div>
       <div class="box-section">
 
-        <div class="box" onclick="clickBox()">
+        <div class="box" onclick="clickBox(3)">
            
         </div>
-        <div class="box" onclick="clickBox()">
+        <div class="box" onclick="clickBox(4)">
             
         </div>
-        <div class="box" onclick="clickBox()">
+        <div class="box" onclick="clickBox(5)">
             
         </div>
 
      </div>
      <div class="box-section">
 
-        <div class="box" onclick="clickBox()">
+        <div class="box" onclick="clickBox(6)">
             
         </div>
-        <div class="box" onclick="clickBox()">
+        <div class="box" onclick="clickBox(7)">
            
         </div>
-        <div class="box" onclick="clickBox()">
+        <div class="box" onclick="clickBox(8)">
             
         </div>
 
      </div>
   </div>
   <div class="buttons">
-    <button class="btn">Start</button>
-    <button class="btn clear-btn">Clear</button>
+    <button class="btn clear-btn" onclick="reSetBoxes()" >Clear</button>
   </div>
   
 
